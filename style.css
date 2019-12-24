@@ -1,0 +1,60 @@
+
+html {
+    background-color: #5f45bb;
+    background-image: linear-gradient(to bottom right, #d054e4);
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    min-width: 300px;
+    overflow-x: hidden;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0 auto;
+    width: 400px;
+    height: 100vh;
+}
+
+.petTitle {
+    text-align: center;
+}
+
+.petKind {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.difficulty {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.petAction {
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+}
+
+.petButton {
+    border-radius: 28011982px;
+    background-color: #a6e1ec;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 160px;
+    height: 80px;
+}
+
+.life {
+    font-weight: 700;
+    color: #E2EF22;
+    padding-top: 20px;
+}

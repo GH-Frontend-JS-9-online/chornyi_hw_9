@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Tamagotchi</title>
+</head>
+<body>
+    <h1 class="petTitle">Tamagotchi</h1>
+    <div class="difficulty">
+        <h4 class="petTitle">Choose your destiny:</h4>
+        <div class="petKind">
+            <select id="select">
+                <option value="Fluffy kitty">Easy level</option>
+                <option value="Lazy pug">Hard level</option>
+                <option value="Ninja">Very hard level</option>
+            </select>
+            <p>Your pet is: <span id="valuePet"></span></p>
+      </div>
+        <button class="petButton" onclick="start()">Start</button>
+    </div>
+    <div>
+        <h4 class="petTitle">Actions</h4>
+        <div class="petAction" id="actions">
+            <button class="petButton" onclick="eat()" id="eat">Eat</button>
+            <button class="petButton" onclick="wash()" id="wash">Wash</button >
+            <button class="petButton" onclick="run()" id="run">Run</button>
+            <button class="petButton" onclick="visitDoctor()" id="visitDoctor">Visit doctor</button>
+            <button class="petButton" onclick="goToBar()" id="goToBar">Go to bar</button>
+            <button class="petButton" onclick="goToWork()" id="goToWork">Go to work</button>
+            <button class="petButton" onclick="buyFood()" id="buyFood">Buy food</button>
+            <button class="petButton" onclick="startBusiness()" id="startBusiness">Start a business</button>
+        </div>
+    </div>
+    <div>
+        <h4 class="petTitle">Stats</h4>
+        <p>Food: <span id="valueFood"></span></p>
+        <p>Clean: <span id="valueClean"></span></p>
+        <p>Happiness: <span id="valueHappiness"></span></p>
+        <p>Health: <span id="valueHealth"></span></p>
+        <p>Socialization: <span id="valueSocialization"></span></p>
+        <p>Money: <span id="valueMoney"></span></p>
+    </div>
+    <div>
+        <p class="life">Pet lived: <span id="valueTime"></span> </p>
+    </div>
+    <div>
+        <button class="petButton" id="restart">Restart Game</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
